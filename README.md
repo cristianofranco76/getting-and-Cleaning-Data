@@ -58,11 +58,11 @@ The function returns <b>two tidy data files</b> stored in the current set workin
   9. <b>Arrange the data set according to the subjet</b> ascending order.
      Note: this is actually not required in the project but I think it makes the data set nicer when looking at the 30 subjects ordered in the first columm.
 
-  10. Write the new tidy data set to a text file: "tidy_data.txt" at the current working directory.
+  10. <b>Write the new tidy data set to a text file "tidy_data.txt" </b> at the current working directory.
   
-  11. Creat independent tidy data set with the average of each variable grouped by activity and subject.
-      Note: #group_by function from "dplyr" package is used to group the data according to subject, activity and data_type, and he summarise_each to apply the function means in all the variables.   
+  11. <b> Create independent tidy data set with the average of each variable grouped by activity and subject.</b>
+      Note: <b>"group_by()"</b> function from "dplyr" package is used to group the data according to subject, activity and data_type, and the <b>"summarise_each()"</b> to apply the function means in all the variables.   
   
-  12.Write the new tidy data set to a text file "mean_data.txt" at the current working directory containing the average of each variable grouped by subject and activity.
+  12. <b> Write the new tidy data set to a text file "mean_data.txt" </b> at the current working directory containing the average of each variable grouped by subject and activity.
 
 During the process all the created variables are removed using the rm() function right after working with the files, releasing temporary variables from the memory.
