@@ -3,7 +3,7 @@
 
 The purpose of this project is to demonstrate our ability to collect, work with, and clean a data set. I created an R script called <b>run_analysis.R</b> that does the steps describes bellow. <b>There is no parameter passed to this function.</b>
  
-The function returns <b>two tidy data files</b> stored in the a specific working directory (defined inside the script):
+The function returns <b>two tidy data files</b> stored in the current set working directory (*defined inside the script):
 
   1) <b>"tidy_data.txt"</b> -> processed data according to the steps described bellow     
   2) <b>"mean_data.txt"</b> -> means of all the variables of the tidy data set
