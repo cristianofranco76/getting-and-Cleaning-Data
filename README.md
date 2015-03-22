@@ -39,7 +39,7 @@ The function returns <b>two tidy data files</b> stored in the current set workin
         Note: mutate function ("dlyr" package) is used to insert the activity labels names (instead of numbers) when reading the lable file.
 
      b. Bind labels, data & a <b>new variable called data_type = "training" to mark the measurements of this type of subjects</b>.
-     Note: I used the binding functions here available at "dplyr" package - bind_cols() and mutate from "dplyr" package to insert the new variable.
+     Note: I used the binding functions here available at "dplyr" package - <b>bind_cols() and mutate</b> from "dplyr" package to insert the new variable.
      
   6. Tidy the <b>Test data set </b>
   
@@ -47,10 +47,10 @@ The function returns <b>two tidy data files</b> stored in the current set workin
         Note: mutate function ("dlyr" package) is used to insert the activity labels names (instead of numbers) when reading the lable file.
 
      b. Bind labels, data & a <b>new variable called data_type = "test" to mark the measurements of this type of subjects.</b>
-     Note: I used the binding functions here available at dplyr package - bind_cols() and mutate from "dplyr" package to insert the new variable.
+     Note: I used the binding functions here available at dplyr package - <b>bind_cols() and mutate</b> from "dplyr" package to insert the new variable.
 
-  7. <b>Merges the training and test sets</b> creating one unique dataset file
-     Note: I used the binding functions here available at dplyr package - bind_rows()
+  7. <b>Merges the training and test sets</b> creating one unique dataset file.
+     Note: I used the binding functions here available at "dplyr" package - <b>bind_rows()</b>
   
   8. <b>Extracts only the measurements on the mean ("mean()" variables) and standard deviation ("std()" variables)</b> for each measurement from the Merged data set.
      Note: I used the select() function from "dplyr" with contains() to create a data set wiht the desired variables 
