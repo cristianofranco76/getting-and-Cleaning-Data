@@ -1,16 +1,14 @@
 #Project Repo - Script run_analysis.R
 ## Getting and Cleaning Data Course
 
-The purpose of this project is to demonstrate our ability to collect, work with, and clean a data set. 
-
-R script called <b>run_analysis.R</b> that does the steps describes bellow. There is no parameter passed to the function.
+The purpose of this project is to demonstrate our ability to collect, work with, and clean a data set. I created an R script called <b>run_analysis.R</b> that does the steps describes bellow. There is no parameter passed to this function.
  
 The function returns two tidy data files stored in the set Working directory:
      
-  1) "tidy_data.txt" -> processed data according to the steps described bellow     
-  2) "mean_data.txt" -> means of all the variables of the tidy data set
+  1) <b>"tidy_data.txt"</b> -> processed data according to the steps described bellow     
+  2) <b>"mean_data.txt"</b> -> means of all the variables of the tidy data set
  
-Importante note: Required to install the package: "dplyr" once some function of this package are larged used in the R Script function.
+<p style="color:red">Importante note:</p> Required to install the package: "dplyr" once some function of this package are larged used in the R Script function.
 
 Function main steps:
 
