@@ -1,4 +1,5 @@
-#Course Project Repo - Getting-and-Cleaning-Data
+#Project Repo - Script run_analysis.R
+## Getting and Cleaning Data Course
 
 The purpose of this project is to demonstrate our ability to collect, work with, and clean a data set. 
 
