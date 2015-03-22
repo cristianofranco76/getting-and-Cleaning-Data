@@ -10,7 +10,7 @@ The function returns <b>two tidy data files</b> stored in the current set workin
  
 <b>Importante notes:</b> 
 
-* Required to install the package: <b>"dplyr"</b> once some function of this package are larged used in the R Script function as described in the steps.
+* Required to install the package: <b>"dplyr"</b> once some function of this package are larged used in the R Script as described in the steps.
 * Both mentioned files are available in this repo according to the output of this script. The files can be read using the function: read.table("filename.txt")
 
 <b>Function/Script main steps:</b>
