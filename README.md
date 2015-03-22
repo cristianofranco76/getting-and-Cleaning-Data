@@ -18,10 +18,10 @@ The function returns <b>two tidy data files</b> stored in the current set workin
 
 <b>Function/Script main steps:</b>
 
-  1. Set my own Working directory: 
+  1. <b>Set my own Working directory:</b> 
   "/Users/cristianomendesfranco/Desktop/Cursos online/Data Science/Getting and Cleaning Data"
 
-  2. Get a sample data set from the link (Samsung Galaxy S smartphone) and store in a temporary file ("temp.zip"):
+  2. <b>Get a sample data set </b> from the link (Samsung Galaxy S smartphone) and store in a temporary file ("temp.zip"):
   <link> https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip </link>
 
  Notes: 
@@ -29,16 +29,16 @@ The function returns <b>two tidy data files</b> stored in the current set workin
  
  * Reference: This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited. Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
-  3. Unzip all the files to the current Working Directory. All the files are unziped at the same folder - there is no junkpaths, and the temporary file is deleted after this proccess.
+  3. <b>Unzip all the files </b> to the current Working Directory. All the files are unziped at the same folder - there is no junkpaths, and the temporary file is deleted after this proccess.
 
-  4. Read Labels and Features Tables 
+  4. <b>Read Labels and Features Tables</b>
   
   5. Tidy the <b>Training data set </b>
   
      a. Read the training data set as well as the subject and labels.
         Note: mutate function (dlyr packaged) is used to insert the activity labels names (instead of numbers) when reading the lable file.
 
-     b. Bind labels, data & a new variable called data_type = "training" to mark the measurements of this type of subjects.
+     b. Bind labels, data & a <b>new variable called data_type = "training" to mark the measurements of this type of subjects</b>.
      Note: I used the binding functions here available at "dplyr" package - bind_cols() and mutate from "dplyr" package to insert the new variable.
      
   6. Tidy the <b>Test data set </b>
@@ -46,16 +46,16 @@ The function returns <b>two tidy data files</b> stored in the current set workin
      a. Read the test data set as well as the subject and labels.
         Note: mutate function (dlyr packaged) is used to insert the activity labels names (instead of numbers) when reading the lable file.
 
-     b. Bind labels, data & a new variable called data_type = "test" to mark the measurements of this type of subjects.
+     b. Bind labels, data & a <b>new variable called data_type = "test" to mark the measurements of this type of subjects.</b>
      Note: I used the binding functions here available at dplyr package - bind_cols() and mutate from "dplyr" package to insert the new variable.
 
-  7. Merges the training and test sets creating one unique dataset file
+  7. <b>Merges the training and test sets</b> creating one unique dataset file
      Note: I used the binding functions here available at dplyr package - bind_rows()
   
-  8. Extracts only the measurements on the mean ("mean()" variables) and standard deviation ("std()" variables) for each measurement from the Merged data set.
+  8. <b>Extracts only the measurements on the mean ("mean()" variables) and standard deviation ("std()" variables)</b> for each measurement from the Merged data set.
      Note: I used the select() function from "dplyr" with contains() to create a data set wiht the desired variables 
 
-  9. Arrange the data set according to the subjet ascending order.
+  9. <b>Arrange the data set according to the subjet</b> ascending order.
      Note: this is actually not required in the project but I think it makes the data set more tidy once I put the 30 subjects as the first columm.
 
   10. Write the new tidy data set to a text file: "tidy_data.txt" at the current working directory.
