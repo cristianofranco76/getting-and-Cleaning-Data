@@ -9,8 +9,7 @@
 ###     1) "tidy_data.txt" -> processed data according to the steps described bellow
 ###     2) "mean_data.txt" -> means of all the variables of the tidy data set
 ### 
-###   Importante note: Required to install the package: "dplyr" once some function of this package are larged used in the R 
-###   Script function.
+###   Importante note: Required to install the package: "dplyr" once some function of this package are larged used in the R Script function.
 ###
 ####  Function main steps:
 ####
