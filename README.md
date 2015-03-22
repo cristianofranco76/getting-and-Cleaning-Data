@@ -32,7 +32,7 @@ The function returns <b>two tidy data files</b> stored in the current set workin
   
   5. Tidy the <b>Training data set </b>
   
-     a. Read the training data set as well as the subject and labels
+     a. Read the training data set as well as the subject and labels.
         Note: mutate function (dlyr packaged) is used to insert the activity labels names (instead of numbers) when reading the lable file.
 
      b. Bind labels, data & a new variable called data_type = "training" to mark the measurements of this type of subjects.
@@ -40,7 +40,7 @@ The function returns <b>two tidy data files</b> stored in the current set workin
      
   6. Tidy the <b>Test data set </b>
   
-     a. Read the test data set as well as the subject and labels
+     a. Read the test data set as well as the subject and labels.
         Note: mutate function (dlyr packaged) is used to insert the activity labels names (instead of numbers) when reading the lable file.
 
      b. Bind labels, data & a new variable called data_type = "test" to mark the measurements of this type of subjects.
