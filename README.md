@@ -8,7 +8,7 @@ The function returns two tidy data files stored in the set Working directory:
   1) <b>"tidy_data.txt"</b> -> processed data according to the steps described bellow     
   2) <b>"mean_data.txt"</b> -> means of all the variables of the tidy data set
  
-<p style="color:red">Importante note:</p> Required to install the package: "dplyr" once some function of this package are larged used in the R Script function.
+<b>Importante note:</b> Required to install the package: <b>"dplyr"</b> once some function of this package are larged used in the R Script function.
 
 Function main steps:
 
