@@ -56,7 +56,7 @@ The function returns <b>two tidy data files</b> stored in the current set workin
      Note: I used the select() function from "dplyr" with contains() to create a data set wiht the desired variables 
 
   9. <b>Arrange the data set according to the subjet</b> ascending order.
-     Note: this is actually not required in the project but I think it makes the data set more tidy once I put the 30 subjects as the first columm.
+     Note: this is actually not required in the project but I think it makes the data set nicer when looking at the 30 subjects ordered in the first columm.
 
   10. Write the new tidy data set to a text file: "tidy_data.txt" at the current working directory.
   
