@@ -25,7 +25,7 @@ run_analysis <- function () {
 #    for each activity and each subject.
 
 ################################################################################################
-##  Loading the necessary packages                                                            ?wrt
+##  Loading the necessary packages                                                           
 ################################################################################################    
     
     #Load dplyr packages
