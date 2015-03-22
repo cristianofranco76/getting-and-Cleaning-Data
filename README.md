@@ -5,9 +5,12 @@ The purpose of this project is to demonstrate our ability to collect, work with,
  
 The function returns <b>two tidy data files</b> stored in the current set working directory (*defined inside the script):
 
-  1) <b>"tidy_data.txt"</b> -> processed data according to the steps described bellow     
+  1) <b>"tidy_data.txt"</b> -> processed data according to the steps described bellow
+  <link>https://github.com/cristianofranco76/getting-and-Cleaning-Data/blob/master/tidy_data.txt</link>
+  
   2) <b>"mean_data.txt"</b> -> means of all the variables of the tidy data set
- 
+ <link>https://github.com/cristianofranco76/getting-and-Cleaning-Data/blob/master/mean_data.txt</link>
+
 <b>Importante notes:</b> 
 
 * Required to install the package: <b>"dplyr"</b> once some function of this package are larged used in the R Script as described in the steps.
