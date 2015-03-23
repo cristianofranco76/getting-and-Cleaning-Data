@@ -14,12 +14,11 @@ The function returns two tidy data files stored in the working directory.
 
 <b>(Note the 'f' to indicate frequency domain signals)</b> 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+These signals were used to estimate variables of the feature vector for each pattern: <b>'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.</b>
 
-The set of variables selected from these signals and stored in this files (after running the run_analisys script) are the mean and standard deviation analisys denoted by the names as follow:
-* variables that ends with "mean"-> Mean value
-* variables that ends with "std" ->Standard deviation
+* The set of variables selected from these signals and stored in this files (after running the run_analisys script) are the mean and standard deviation analisys denoted by the names as follow:
+  * variables that ends with "mean"-> Mean value
+  * variables that ends with "std" ->Standard deviation
 
 1) <b>"tidy_data.txt"</b> with <b>89 variables</b> as following:
 
