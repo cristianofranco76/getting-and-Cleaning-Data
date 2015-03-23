@@ -27,7 +27,7 @@ These signals were used to estimate variables of the feature vector for each pat
 3. "data_type" -> type of volunteers selected: generating the training data or the test data. 
 Important Note: this variable was created by the script to guarantee that we are able to track from each type of observation the data sets come from.
 
-The other following varibles are as described in the experiment above.
+As described in the experiment above:
 
 4. "tBodyAcc.mean...X"
 5. "tBodyAcc.mean...Y"
