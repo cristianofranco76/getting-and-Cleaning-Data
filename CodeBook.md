@@ -26,9 +26,6 @@ These signals were used to estimate variables of the feature vector for each pat
 2. "activity"-> Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 3. "data_type" -> type of volunteers selected: generating the training data or the test data. 
 Important Note: this variable was created by the script to guarantee that we are able to track from each type of observation the data sets come from.
-
-As described in the experiment above:
-
 4. "tBodyAcc.mean...X"
 5. "tBodyAcc.mean...Y"
 6. "tBodyAcc.mean...Z" 
@@ -115,5 +112,7 @@ As described in the experiment above:
 87. "fBodyBodyAccJerkMag.std.." 
 88. "fBodyBodyGyroMag.std.." 
 89. "fBodyBodyGyroJerkMag.std.."
+
+The variables 4:89 are as described in the experiment above.
 
 2) <b>"mean_data.txt"</b> -> sumarize the tidy data calculating the <b>means of all the variables (4:89)</b> by the <b>groups of subject and activity</b>.
