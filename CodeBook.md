@@ -8,26 +8,103 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 The set of variables selected from these signals and stored in this files are the mean and standard deviation analisys denoted by the names as follow:
-"mean()": Mean value
-"std()": Standard deviation
+* variables that ends with "mean"-> Mean value
+* variables that ends with "std" ->Standard deviation
 
-Description of the variables stored in the output files processed by the script/function <b>run_analisys()"</b>
+1) <b>"tidy_data.txt"</b> with <b>89 variables</b> as following:
 
-1) "tidy_data.txt" with <b>89 variables</b> as following:
+1. "subject" ->  numeric value representing the group of 30 volunteers within an age bracket of 19-48 years that did the experiment
+2. "activity"-> Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+3. "data_type" -> type of volunteers selected: generating the training data or the test data. 
+Important Note: this variable was created by the script to guarantee that we are able to track from each type of observation the data sets come from.
 
-"subject" ->  
-"activity"-> 
-"data_type" 
-"tBodyAcc.mean...X" 
-"tBodyAcc.mean...Y"
-"tBodyAcc.mean...Z" 
-"tGravityAcc.mean...X" 
-"tGravityAcc.mean...Y"
-"tGravityAcc.mean...Z"
-"tBodyAccJerk.mean...X"
-"tBodyAccJerk.mean...Y"
-"tBodyAccJerk.mean...Z" "tBodyGyro.mean...X" "tBodyGyro.mean...Y" "tBodyGyro.mean...Z" "tBodyGyroJerk.mean...X" "tBodyGyroJerk.mean...Y" "tBodyGyroJerk.mean...Z" "tBodyAccMag.mean.." "tGravityAccMag.mean.." "tBodyAccJerkMag.mean.." "tBodyGyroMag.mean.." "tBodyGyroJerkMag.mean.." "fBodyAcc.mean...X" "fBodyAcc.mean...Y" "fBodyAcc.mean...Z" "fBodyAcc.meanFreq...X" "fBodyAcc.meanFreq...Y" "fBodyAcc.meanFreq...Z" "fBodyAccJerk.mean...X" "fBodyAccJerk.mean...Y" "fBodyAccJerk.mean...Z" "fBodyAccJerk.meanFreq...X" "fBodyAccJerk.meanFreq...Y" "fBodyAccJerk.meanFreq...Z" "fBodyGyro.mean...X" "fBodyGyro.mean...Y" "fBodyGyro.mean...Z" "fBodyGyro.meanFreq...X" "fBodyGyro.meanFreq...Y" "fBodyGyro.meanFreq...Z" "fBodyAccMag.mean.." "fBodyAccMag.meanFreq.." "fBodyBodyAccJerkMag.mean.." "fBodyBodyAccJerkMag.meanFreq.." "fBodyBodyGyroMag.mean.." "fBodyBodyGyroMag.meanFreq.." "fBodyBodyGyroJerkMag.mean.." "fBodyBodyGyroJerkMag.meanFreq.." "angle.tBodyAccMean.gravity." "angle.tBodyAccJerkMean..gravityMean." "angle.tBodyGyroMean.gravityMean." "angle.tBodyGyroJerkMean.gravityMean." "angle.X.gravityMean." "angle.Y.gravityMean." "angle.Z.gravityMean." "tBodyAcc.std...X" "tBodyAcc.std...Y" "tBodyAcc.std...Z" "tGravityAcc.std...X" "tGravityAcc.std...Y" "tGravityAcc.std...Z" "tBodyAccJerk.std...X" "tBodyAccJerk.std...Y" "tBodyAccJerk.std...Z" "tBodyGyro.std...X" "tBodyGyro.std...Y" "tBodyGyro.std...Z" "tBodyGyroJerk.std...X" "tBodyGyroJerk.std...Y" "tBodyGyroJerk.std...Z" "tBodyAccMag.std.." "tGravityAccMag.std.." "tBodyAccJerkMag.std.." "tBodyGyroMag.std.." "tBodyGyroJerkMag.std.." "fBodyAcc.std...X" "fBodyAcc.std...Y" "fBodyAcc.std...Z" "fBodyAccJerk.std...X" "fBodyAccJerk.std...Y" "fBodyAccJerk.std...Z" "fBodyGyro.std...X" "fBodyGyro.std...Y" "fBodyGyro.std...Z" "fBodyAccMag.std.." "fBodyBodyAccJerkMag.std.." "fBodyBodyGyroMag.std.." "fBodyBodyGyroJerkMag.std.."
+The other following varibles are as described in the experiment above.
 
+4. "tBodyAcc.mean...X"
+5. "tBodyAcc.mean...Y"
+6. "tBodyAcc.mean...Z" 
+7. "tGravityAcc.mean...X" 
+8. "tGravityAcc.mean...Y"
+9. "tGravityAcc.mean...Z"
+10. "tBodyAccJerk.mean...X"
+11. "tBodyAccJerk.mean...Y"
+12. "tBodyAccJerk.mean...Z" 
+13. "tBodyGyro.mean...X"
+14. "tBodyGyro.mean...Y" 
+15. "tBodyGyro.mean...Z" 
+16. "tBodyGyroJerk.mean...X" 
+17. "tBodyGyroJerk.mean...Y" 
+18. "tBodyGyroJerk.mean...Z" 
+19. "tBodyAccMag.mean.." 
+20. "tGravityAccMag.mean.." 
+21. "tBodyAccJerkMag.mean.." 
+22. "tBodyGyroMag.mean.." 
+23. "tBodyGyroJerkMag.mean.." 
+24. "fBodyAcc.mean...X" 
+25. "fBodyAcc.mean...Y" 
+26. "fBodyAcc.mean...Z" 
+27. "fBodyAcc.meanFreq...X" 
+28. "fBodyAcc.meanFreq...Y" 
+29. "fBodyAcc.meanFreq...Z" 
+30. "fBodyAccJerk.mean...X" 
+31. "fBodyAccJerk.mean...Y" 
+32. "fBodyAccJerk.mean...Z" 
+33. "fBodyAccJerk.meanFreq...X" 
+34. "fBodyAccJerk.meanFreq...Y" 
+35. "fBodyAccJerk.meanFreq...Z" 
+36. "fBodyGyro.mean...X" 
+37. "fBodyGyro.mean...Y" 
+38. "fBodyGyro.mean...Z" 
+39. "fBodyGyro.meanFreq...X" 
+40. "fBodyGyro.meanFreq...Y" 
+41. "fBodyGyro.meanFreq...Z" 
+42. "fBodyAccMag.mean.." 
+43. "fBodyAccMag.meanFreq.." 
+44. "fBodyBodyAccJerkMag.mean.." 
+45. "fBodyBodyAccJerkMag.meanFreq.." 
+46. "fBodyBodyGyroMag.mean.." 
+47. "fBodyBodyGyroMag.meanFreq.." 
+48. "fBodyBodyGyroJerkMag.mean.." 
+49. "fBodyBodyGyroJerkMag.meanFreq.." 
+50. "angle.tBodyAccMean.gravity." 
+51. "angle.tBodyAccJerkMean..gravityMean." 
+52. "angle.tBodyGyroMean.gravityMean." 
+53. "angle.tBodyGyroJerkMean.gravityMean." 
+54. "angle.X.gravityMean." 
+55. "angle.Y.gravityMean." 
+56. "angle.Z.gravityMean." 
+57. "tBodyAcc.std...X" 
+58. "tBodyAcc.std...Y" 
+59. "tBodyAcc.std...Z" 
+60. "tGravityAcc.std...X" 
+61. "tGravityAcc.std...Y" 
+62. "tGravityAcc.std...Z" 
+63. "tBodyAccJerk.std...X" 
+64. "tBodyAccJerk.std...Y" 
+65. "tBodyAccJerk.std...Z" 
+66. "tBodyGyro.std...X" 
+67. "tBodyGyro.std...Y" 
+68. "tBodyGyro.std...Z" 
+69. "tBodyGyroJerk.std...X" 
+70. "tBodyGyroJerk.std...Y" 
+71. "tBodyGyroJerk.std...Z" 
+72. "tBodyAccMag.std.." 
+73. "tGravityAccMag.std.." 
+74. "tBodyAccJerkMag.std.." 
+75. "tBodyGyroMag.std.." 
+76. "tBodyGyroJerkMag.std.." 
+77. "fBodyAcc.std...X" 
+78. "fBodyAcc.std...Y" 
+79. "fBodyAcc.std...Z" 
+80. "fBodyAccJerk.std...X" 
+81. "fBodyAccJerk.std...Y" 
+82. "fBodyAccJerk.std...Z" 
+83. "fBodyGyro.std...X" 
+84. "fBodyGyro.std...Y" 
+85. "fBodyGyro.std...Z" 
+86. "fBodyAccMag.std.." 
+87. "fBodyBodyAccJerkMag.std.." 
+88. "fBodyBodyGyroMag.std.." 
+89. "fBodyBodyGyroJerkMag.std.."
 
-
-2) "mean_data.txt" -> means of all the variables of the tidy data set
+2) <b>"mean_data.txt"</b> -> sumarize the tidy data calculating the <b>means of all the variables (4:89)</b> by the <b>groups of subject and activity</b>.
